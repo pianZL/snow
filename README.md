@@ -20,5 +20,7 @@ yarn build
 yarn lint
 ```
 
+### 效果图
+![avatar](src/assets/images/效果图.png)
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
