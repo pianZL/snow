@@ -1,4 +1,4 @@
-# snowbg2
+# snow
 
 ## Project setup
 ```
