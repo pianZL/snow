@@ -1,15 +1,15 @@
 module.exports = {
   devServer: {
-    port:7777,
-      proxy: {
-          '/api': {
-              target: 'localhost:7788',
-              changeOrigin: true,
-              pathRewrite: {
-                  '^/api': ''
-              }
-          },
-      },
+    port:8080,
+      // proxy: {
+      //     '/api': {
+      //         target: 'localhost:7788',
+      //         changeOrigin: true,
+      //         pathRewrite: {
+      //             '^/api': ''
+      //         }
+      //     },
+      // },
   },
   lintOnSave: false, //关闭eslint的；
   // 修改图标

@@ -20,7 +20,7 @@
       </el-form-item>
     </el-form>
       </div>
-  </div>  
+  </div>
 </template>
 <script>
 let canvas;
@@ -137,6 +137,8 @@ export default {
   position: absolute;
   width: 100%;
   height: 100%;
+  top:0px;
+  left: 0px;
   background: url("../../assets/images/snow.png");
 }
 .login-title {
